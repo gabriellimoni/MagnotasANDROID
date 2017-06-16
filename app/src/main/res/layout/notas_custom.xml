@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:id="@+id/nota_layout">
+
+    <!-- <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nota_img"
+        android:src="@drawable/ic_menu_camera"/>
+-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nota_assunto"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:text="TESTE"
+        android:textColor="@android:color/holo_green_dark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nota_texto"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="testando"
+        android:visibility="gone"
+        android:textColor="@android:color/holo_green_light"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nota_categoria"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="testando"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nota_usuario"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="testando"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nota_data"
+        android:textSize="15sp"
+        android:gravity="right"
+        android:text="testando"
+        android:textColor="@android:color/darker_gray"/>
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimary">#FF6347</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorCarona">#32CD32</color>
+    <color name="colorAcademico">#6495ED</color>
+    <color name="colorOutros">#FFD700</color>
+    <color name="colorFesta">#DB7093</color>
+
+    <color name="colorMural">#FFFFFF</color>
+
+
+
+</resources>
